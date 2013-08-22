@@ -38,13 +38,22 @@ h2{
 color:#ea5258;
 }
 
-.video{
-	margin: 0 auto;
+h3{
+color:#ea5258;
 }
 
-
-
-.span3 div img{
-	margin:0 auto;
+#mail img{
+  float:right;
 }
 
+.span3 img{
+    margin: 15px 15px 15px 15px;
+}
+
+#contact-us img{
+  margin:15px 15px 15px 15px;
+}
+
+.spacer{
+  height:50px;
+}
