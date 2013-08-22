@@ -1,0 +1,50 @@
+
+
+/* ==========================================================================
+   Jackpine's custom styles
+   ========================================================================== */
+
+
+*{
+	font-family: 'Raleway', Arial, sans-serif !important;
+}
+a{
+	color:#ea5258;
+	text-decoration: underline;
+}
+footer img{
+	display:block;
+	margin: 0 auto;
+}
+
+.navbar-inner {
+  background-color: none; 
+  background-image: none;
+  background-image: none;
+  background-image: none;
+  background-image: none;
+  background-image: none;
+  background-image: none;
+  background-repeat: no-repeat;
+  filter: none;
+}
+
+
+.nav a:hover{
+	color:black;
+}
+
+h2{
+color:#ea5258;
+}
+
+.video{
+	margin: 0 auto;
+}
+
+
+
+.span3 div img{
+	margin:0 auto;
+}
+
