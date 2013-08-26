@@ -4,6 +4,12 @@
    Jackpine's custom styles
    ========================================================================== */
 
+#mail h3{
+  text-align:center;
+}
+#mail a{
+    text-decoration: none !important;
+}
 
 *{
 	font-family: 'Raleway', Arial, sans-serif !important;
@@ -57,3 +63,5 @@ color:#ea5258;
 .spacer{
   height:50px;
 }
+
+

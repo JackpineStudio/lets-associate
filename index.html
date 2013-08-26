@@ -9,7 +9,7 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
-<link href='http://fonts.googleapis.com/css?family=Raleway:400,800' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Raleway:400,800' rel='stylesheet' type='text/css'>
 
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <style>
@@ -22,6 +22,9 @@
         <link rel="stylesheet" href="css/main.css">
 
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/jquery.fitvids.js"></script>
+
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -53,25 +56,18 @@
 
         <div class="container">
             <!-- Main hero unit for a primary marketing message or call to action -->
-            <div class="hero-unit">
+            <div class="hero-unit" style="background-image: url(img/team-photo.jpg); height:600px;">
             <!-- <h1>Let's Associate</h1>-->
-                <p>Hansel & Gretel</p>
-                <p>Batman & Robin</p>
-                <p>Jack & Jill</p>
-                <p>The Fox & The hound.</p>
-                <p>Fiction has seen a lot of great pairings.</p>
-                <p>It’s reality’s turn.</p>
-                <p>Let’s associate.</p>
+                <h2>Let's Associate</h2>
             </div>
 
-            
+
                 <div class="video">
                     <iframe src="http://player.vimeo.com/video/72907726" width="1160" height="652" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> 
-                    <script>
-                    document.getElementById("myframe").align="right";
-                    </script>
                 </div>
-                
+ 
+            <div class="spacer">
+            </div>
 
             <div class="row" id="why-jackpine">
                 <div class="span12">
@@ -131,7 +127,7 @@
                     <p>Your messaging can be continuous.  And if it is, you want it to be attractive and concise.  You want people coming back. Are your members engaging with your content?  Because engagement leads to results. Are people coming to your site everyday for one thing?  They could be. </p>
                 </div>
             </div>
-            
+
             <div class="spacer">
             </div>
 
@@ -145,9 +141,12 @@
                     <p>Or visit our website at <a href="http://www.jackpine.co">jackpine.co</a></p>
                     <a href="https://www.facebook.com/pages/Jackpine/503191079715228"><img src="img/facebook.png"></a> <a href="https://twitter.com/JackpineCo"><img src="img/twitter.png"></a>
                 </div>
-
-                <div class="span6" id="mail">
-                    <a href="mailto:hello@jackpine.co"><img src="img/contact.png"></a>
+                <div class="span3">
+                </div>
+                <div class="span3" id="mail">
+                    <a href="mailto:hello@jackpine.co"><img src="img/contact.png">
+                    <h3>Send Us A Note!</h3>
+                    </a>
                 </div>
             </div>  
         </div>
@@ -166,7 +165,11 @@
         <script src="js/vendor/bootstrap.min.js"></script>
 
         <script src="js/main.js"></script>
-
+        <script>
+              $(document).ready(function(){
+                $(".video").fitVids();
+              });
+        </script>
         <script>
             var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
             (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
