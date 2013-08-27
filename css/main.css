@@ -64,4 +64,15 @@ color:#ea5258;
   height:50px;
 }
 
+.hero-unit{
+  text-align:center;
+}
 
+.hero-unit h3{
+  font-size:60px;
+}
+
+.hero-unit {
+  background-image: url(img/team-photo.jpg); 
+  height:600px;
+}
