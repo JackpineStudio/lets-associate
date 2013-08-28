@@ -8,6 +8,28 @@ body{
   margin: 0;
   padding:0;
 }
+a:hover{
+  opacity: .7;
+  text-decoration: none;
+}
+*{
+  font-family: 'Raleway', Arial, sans-serif !important;
+}
+h2{
+color:#ea5258;
+}
+
+h3{
+color:#ea5258;
+}
+.video-btn{
+  padding: 20px;
+  background-color: #ea5258;
+  color: #fff !important;
+  text-decoration: none;
+
+}
+
 .nav li{
   color:white;
   color:white;
@@ -42,9 +64,7 @@ body{
     text-decoration: none !important;
 }
 
-*{
-	font-family: 'Raleway', Arial, sans-serif !important;
-}
+
 .span3 a{
 	color:#ea5258;
 	text-decoration: underline;
@@ -75,16 +95,11 @@ text-shadow: none;
 .hero-unit{
 border-radius:0px;
 }
-
-
-h2{
-color:#ea5258;
+.hero-unit h1{
+  line-height: 50px;
+  font-size: 30px;
+  margin:0 0 20px 0;
 }
-
-h3{
-color:#ea5258;
-}
-
 
 .span3 img{
     margin: 15px 15px 15px 15px;
@@ -101,19 +116,16 @@ color:#ea5258;
 .hero-unit h3{
   font-size:60px;
 }
-
 .hero-unit {
   background-image: url(img/team-photo.jpg); 
   background-position: fixed;
   background-repeat: no-repeat;
 }
-
 .span4 img{
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-
 h1{
   font-size: 100pt;
   color: white !important;
@@ -123,22 +135,27 @@ h1{
   color: white !important;
   text-align: center !important;
 }
-
 .hero-unit div{
     display: table;
     margin: 0 auto;
 }
-@media (min-width: 600px) {
+@media (min-width: 600px){
   .hero-unit{
     height: 300px;
   }
+  .hero-unit h1{
+    line-height: 200px;
+    font-size: 40px;
+
+  }
 }
-@media (min-width: 960px) {
+@media (min-width: 960px){
   .hero-unit{
     height: 400px;
     background-color: white;
   }
   .hero-unit h1{
-    line-height: 400px;
+    font-size: 80px;
+    line-height: 350px;
   }
 }
