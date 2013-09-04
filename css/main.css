@@ -139,6 +139,12 @@ h1{
     display: table;
     margin: 0 auto;
 }
+
+.span3 a {
+  text-decoration: none !important;
+  color: black !important;
+}
+
 @media (min-width: 600px){
   .hero-unit{
     height: 300px;
